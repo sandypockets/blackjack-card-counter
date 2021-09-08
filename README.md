@@ -61,3 +61,5 @@ Then visit `http://localhost:6006/` in your browser.
 * tailwindcss 2.2.4
 
 ## Screenshots
+
+![blackjack card counter](https://github.com/sandypockets/blackjack-card-counter/blob/main/docs/blackjack-card-counter.png?raw=true)
