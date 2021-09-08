@@ -4,6 +4,7 @@ import CardTracker from "../components/CardTracker";
 import DisplayCount from "../components/DisplayCount";
 import DeckQuantity from "../components/DeckQuantity";
 import Faq from "../components/Faq";
+import Meta from "../components/Meta";
 
 export default function Home() {
   const [numOfDecks, setNumOfDecks] = useState(1)
@@ -17,18 +18,21 @@ export default function Home() {
   })
 
   return (
-    <main className="bg-black text-white h-screen">
-      <Nav />
-      <section className="pt-24 flex justify-center">
-        <div className="bg-gray-900 py-5 px-20 mx-4 rounded-xl">
-          <DeckQuantity numOfDecks={numOfDecks} setNumOfDecks={setNumOfDecks} />
-          <CardTracker runningCount={runningCount} setRunningCount={setRunningCount} />
-          <DisplayCount runningCount={runningCount} trueCount={trueCount} />
-        </div>
-      </section>
-      <section className="mt-24">
-        <Faq />
-      </section>
-    </main>
+    <>
+      <Meta />
+      <main className="bg-black text-white h-screen">
+        <Nav />
+        <section className="pt-24 flex justify-center">
+          <div className="bg-gray-900 py-5 px-20 mx-4 rounded-xl">
+            <DeckQuantity numOfDecks={numOfDecks} setNumOfDecks={setNumOfDecks} />
+            <CardTracker runningCount={runningCount} setRunningCount={setRunningCount} />
+            <DisplayCount runningCount={runningCount} trueCount={trueCount} />
+          </div>
+        </section>
+        <section className="mt-24">
+          <Faq />
+        </section>
+      </main>
+    </>
   )
 }
