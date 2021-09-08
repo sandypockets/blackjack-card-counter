@@ -20,16 +20,16 @@ export default function Home() {
   return (
     <>
       <Meta />
-      <main className="bg-black text-white h-screen">
+      <main className="bg-black text-white h-screen w-screen">
         <Nav />
-        <section className="pt-24 flex justify-center">
+        <section className="pt-24 flex justify-center bg-black">
           <div className="bg-gray-900 py-5 px-20 mx-4 rounded-xl">
             <DeckQuantity numOfDecks={numOfDecks} setNumOfDecks={setNumOfDecks} />
             <CardTracker runningCount={runningCount} setRunningCount={setRunningCount} />
             <DisplayCount runningCount={runningCount} trueCount={trueCount} />
           </div>
         </section>
-        <section className="mt-24">
+        <section className="pt-24 bg-black">
           <Faq />
         </section>
       </main>
