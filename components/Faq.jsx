@@ -39,7 +39,18 @@ const faqs = [
     answer:
       "The true count is an additional counter that takes the number of decks into consideration. If you are only using 1 deck, then the true count will stay the same as the running count.",
   },
-
+  {
+    id: 5,
+    question: "Why doesn't the count change when I click the 7-9 button?",
+    answer:
+      "Cards between 7 and 9 do not impact the count, so nothing happens when you click that button. You can skip clicking it when using the counter if you prefer.",
+  },
+  {
+    id: 6,
+    question: "How to I choose which suit the card is?",
+    answer:
+      "Since suits don't matter in Blackjack, they don't need to be taken into consideration when counting cards.",
+  },
 ]
 
 export default function Faq() {
