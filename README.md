@@ -3,15 +3,30 @@ A simple app for counting cards in Blackjack. Please use responsibly.
 
 ## Built with
 
-* React
-* Next.js
-* Tailwind CSS
+* [React](https://reactjs.org/docs/getting-started.html)
+* [Next.js](https://nextjs.org/docs/getting-started)
+* [Tailwind CSS](https://tailwindcss.com/docs/utility-first)
 
 ## Features
 
 * Change number of decks
 * Display running count
 * Display true count
+
+## Preview
+Preview the example live on [StackBlitz](http://stackblitz.com/):
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sandypockets/blackjack-card-counter/tree/main)
+
+## Live demo
+
+Check out the live demo at [blackjack-card-counter.vercel.app](https://blackjack-card-counter.vercel.app/).
+
+## Deploy your own
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=sandypockets):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/sandypockets/blackjack-card-counter/tree/main&project-name=blackjack-card-counter&repository-name=blackjack-card-counter)
 
 ## Getting Started
 Developed and tested with `Node 14`. Packages managed with `yarn`.  
