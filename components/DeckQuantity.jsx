@@ -8,21 +8,23 @@ export default function DeckQuantity({ numOfDecks, setNumOfDecks }) {
   }
 
   return (
-    <div className="flex justify-center pb-6">
-      <div className="pb-1">
-      Number of decks in play: {numOfDecks}
-      <Button
-        handleClick={addRemoveDecks}
-        cardVal={-1}
-      >
-        -
-      </Button>
-      <Button
-        handleClick={addRemoveDecks}
-        cardVal={+1}
-      >
-        +
-      </Button>
+    <div className="flex justify-center pb-6 font-thin">
+      <div className="pb-1 flex">
+        <h2 className="pt-2 mx-3">
+          Number of decks: <strong>{numOfDecks}</strong>
+        </h2>
+        <Button
+          handleClick={addRemoveDecks}
+          cardVal={-1}
+        >
+          -
+        </Button>
+        <Button
+          handleClick={addRemoveDecks}
+          cardVal={+1}
+        >
+          +
+        </Button>
       </div>
     </div>
   )

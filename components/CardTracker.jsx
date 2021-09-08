@@ -9,10 +9,10 @@ export default function CardTracker ({ runningCount, setRunningCount }) {
 
   return (
     <div>
-      <h3 className="flex justify-center pb-10">
+      <h3 className="mx-auto pb-5 font-thin">
         Click the button for each corresponding card played.
       </h3>
-      <div className="flex justify-around w-1/4 mx-auto">
+      <div className="flex justify-around mx-auto">
         <Button
           handleClick={handleClick}
           cardVal={-1}
